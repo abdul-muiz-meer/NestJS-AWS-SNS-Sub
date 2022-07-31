@@ -4,7 +4,7 @@ import { SnssubscriberController } from './controllers/snssubscriber.controller'
 import { SnssubscriberService } from './services/snssubscriber.service';
 
 @Module({
-    controllers:[SnssubscriberController],
-    providers:[SnssubscriberService,AwsService],
+  controllers: [SnssubscriberController],
+  providers: [SnssubscriberService, AwsService],
 })
 export class SnssubscribeModule {}
